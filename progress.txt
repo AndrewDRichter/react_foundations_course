@@ -1,1 +1,1 @@
-https://nextjs.org/learn/react-foundations/updating-ui-with-javascript 
+https://nextjs.org/learn/react-foundations/displaying-data-with-props 

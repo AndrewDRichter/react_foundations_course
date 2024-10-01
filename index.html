@@ -27,19 +27,24 @@
           );
         }
 
-        function Header() {
+        function Header({ title }) {
           return (
             <div>
-              <h1>Header section</h1>
+              <h1>{ title ? title : 'title' }</h1>
             </div>
           );
         }
 
-        function Body() {
+        function Body({names}) {
           return (
             <div>
               <p>Body section</p>
               <ContactForm />
+              <ul>
+                {names.map((name) => (
+                  <li key={name}>{name}</li>
+                ))}
+              </ul>
             </div>
             );
         }
@@ -53,10 +58,12 @@
         }
 
         function HomePage() {
+          const names = ['Andrew', 'Priscila', 'Katarina'];
+          
           return (
             <div>
-              <Header />
-              <Body />
+              <Header title="React" />
+              <Body names={names} />
               <Footer />
             </div>
             );
