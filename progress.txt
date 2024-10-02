@@ -1,1 +1,1 @@
-https://nextjs.org/learn/react-foundations/displaying-data-with-props 
+https://nextjs.org/learn/react-foundations/installation 
