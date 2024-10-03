@@ -1,1 +1,1 @@
-https://nextjs.org/learn/react-foundations/installation 
+https://nextjs.org/learn/dashboard-app 
